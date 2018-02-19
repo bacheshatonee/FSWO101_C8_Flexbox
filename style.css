@@ -1,0 +1,44 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 900px;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+  height: 500px;
+  flex-direction: row;
+  }
+
+  .body-container {
+    display: flex;
+  }
+
+.body-boxes {
+  flex-1;
+
+  flex-direction: row;
+}
+
+#box1 {
+  background-color: blue;
+  width:200px;
+}
+
+#box2 {
+  background-color: red;
+  width:200px;
+}
+
+#box3 {
+  width:200px;
+  background-color: green;
+}
